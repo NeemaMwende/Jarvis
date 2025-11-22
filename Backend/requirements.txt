@@ -1,0 +1,38 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+python-dotenv
+
+# Speech Recognition
+SpeechRecognition
+pyaudio
+faster-whisper
+vosk
+
+# Text-to-Speech
+pyttsx3
+TTS  # optional large TTS library if needed
+numpy
+
+# Wake Word Engines
+openwakeword
+pvporcupine
+
+# Tools - OCR, search, system, email, sms, web
+duckduckgo-search
+pytesseract
+easyocr
+psutil
+pyautogui
+scapy
+beautifulsoup4
+requests
+google-api-python-client
+oauth2client
+
+# Utility
+sounddevice
+pydub
+loguru
+
