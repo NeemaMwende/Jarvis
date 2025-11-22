@@ -59,7 +59,6 @@ def ocr_read(image_path: str, use_llm: bool = True) -> str:
     except Exception as e:
         return f"Failed to extract text: {str(e)}"
 
-
 # Standalone test
 # if __name__=="__main__":
 #     test_path = "/home/neemah/Pictures/js.jpeg"  # replace with your image
