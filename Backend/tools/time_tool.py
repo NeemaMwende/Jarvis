@@ -9,7 +9,7 @@ geolocator = Nominatim(user_agent="time_tool")
 tf = TimezoneFinder()
 
 @tool
-def get_time(city: str) -> str:
+def time_tool(city: str) -> str:
     """Returns the current local time for any city using geopy + timezonefinder + pytz."""
     try:
         # Get location coordinates (latitude, longitude)
@@ -32,6 +32,6 @@ def get_time(city: str) -> str:
 
     except Exception as e:
         return f"Error: {e}"
-
-if __name__ == "__main__": 
-    print(get_time("London"))
+s
+# if __name__ == "__main__": 
+#     print(get_time("London"))
